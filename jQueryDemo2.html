@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="additionsubtractionScript.js"></script>
+    <script src="stringManipulationScript.js"></script>
+    <script src="stringConcatenationScript.js"></script>
+    <script src="tableScript.js"></script>
+</head>
+<body style="background-color:aquamarine">
+    <div style="margin-top:30px"><h1 style="text-align:center;color:crimson">JQuery & Bootstrap Demo</h1></div>
+    <div class="container" style="margin-top:30px">
+        <h4>Calculation</h4>
+        <input type="text" id="in1" class="form-control" placeholder="Enter first number" /><br />
+        <input type="text" id="in2" class="form-control" placeholder="Enter second number" /><br />
+        <input type="text" id="res" class="form-control" placeholder="Result" /><br />
+        <button class="btn btn-info" id="add">Add</button>
+        <button class="btn btn-info" id="subtract">Subtract</button>
+    </div>
+    <hr style="border-width:thick" />
+    <div class="container" style="margin-top:50px">
+        <h4>String Manipulation</h4>
+        <input type="text" id="in3" class="form-control" placeholder="Enter text" /><br />
+        <button class="btn btn-info" id="tolower">To LowerCase</button>
+    </div>
+    <hr style="border-width:thick" />
+    <div class="container" style="margin-top:50px">
+        <h4>String Concatenation</h4>
+        <div class="form-inline">
+            <input type="text" id="in4" class="col-sm-6 form-control" placeholder="Enter first text" />
+            <input type="text" id="in5" class="col-sm-6 form-control" placeholder="Enter second text" />
+        </div><br>
+        <input type="text" id="res1" class="form-control" placeholder="Concatenated String" /><br />
+        <button class="btn btn-info" id="concat">Concat</button>
+    </div>
+    <hr style="border-width:thick" />
+    <div class="container" >
+        <h4>Display Table of a number</h4>
+        <div class="form-inline container">
+            <input type="number" id="in6" class="col-sm-6 form-control" placeholder="Enter number" />
+            <button class="btn btn-info" id="table">Show Table</button>
+        </div>
+    </div>
+    <div class="container" style="margin-bottom:100px">
+        <table id="tbl"></table>
+    </div>
+</body>
+</html>
